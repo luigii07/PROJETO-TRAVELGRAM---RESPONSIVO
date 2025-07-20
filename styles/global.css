@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #EF5F4C;
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: #ffffff8f;
+
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+
+    --ff-poppins: 'Poppins', sans-serif;
+
+    --text: 1rem/1.5 var(--ff-poppins);
+
+    --text-lg: 700 2rem/1.25 var(--ff-poppins);
+    --text-md: 400 .875rem/1.7 var(--ff-poppins);
+    --text-sm: 400 .75rem/1.7 var(--ff-poppins);
+
+    --px-md: 1rem;
+    --py-md: 1rem;
+}
+
+body {
+    font: var(--text);
+    color: var(--text-color-secondary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+}
+
+a:hover {
+    color: var(--brand-color);
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
