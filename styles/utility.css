@@ -2,6 +2,11 @@
     display: flex;
 }
 
+.even-columns {
+    display: flex;
+    flex-direction: column;
+}
+
 .only-desktop {
     display: none;
 }
@@ -23,5 +28,9 @@
 
     .only-desktop {
         display: initial;
+    }
+
+    .even-columns {
+        flex-direction: row;
     }
 }
