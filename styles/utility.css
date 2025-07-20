@@ -1,3 +1,7 @@
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
+
 .flex {
     display: flex;
 }
@@ -16,7 +20,6 @@
     --px: 1rem;
     width: min(var(--max-width), 100%);
     margin-inline: auto;
-    border: solid var(--brand-color);
     padding-inline: var(--px);
 }
 
