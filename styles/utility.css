@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.only-desktop {
+    display: none;
+}
+
+.container {
+    --max-width: 360px;
+    --px: 1rem;
+    width: min(var(--max-width), 100%);
+    margin-inline: auto;
+    border: solid var(--brand-color);
+    padding-inline: var(--px);
+}
+
+@media (width >= 80em) {
+    .container {
+        --max-width: 80em;
+        --px: 2rem;
+    }
+
+    .only-desktop {
+        display: initial;
+    }
+}

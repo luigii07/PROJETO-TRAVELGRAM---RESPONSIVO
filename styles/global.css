@@ -21,9 +21,6 @@
     --text-lg: 700 2rem/1.25 var(--ff-poppins);
     --text-md: 400 .875rem/1.7 var(--ff-poppins);
     --text-sm: 400 .75rem/1.7 var(--ff-poppins);
-
-    --px-md: 1rem;
-    --py-md: 1rem;
 }
 
 body {
